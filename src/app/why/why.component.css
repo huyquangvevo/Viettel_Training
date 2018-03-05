@@ -1,0 +1,65 @@
+#component_why {
+    clear: both;
+    padding: 80px 10px 40px 50px;
+    background-color: #373d41;
+    height: 540px;
+}
+
+#info_why {
+    width: 360px;
+    color: white;
+    float: left;
+    padding-right: 0px;
+}
+
+#title_why {
+    font-size: 30px;
+}
+
+#detail_why {
+    font-size: 19px;
+    color: #808080;
+}
+
+#button_learn_more_why {
+    background: none;
+    padding: 5px 15px;
+    color: white;
+    border: 0.05px solid white;
+}
+
+#list_option_why {
+    float: left;
+    width: 70%;
+    padding-left: 20px;
+}
+
+.item_option_why {
+    float: left;
+    width: 400px;
+    padding: 0px 0px;
+}
+
+.icon_item_why {
+    float: left;
+    padding: 5px 30px 5px 0px;
+}
+
+.info_item_why {
+    float: left;
+    width: 290px;
+}
+
+
+div {
+    color: white;
+}
+
+.title_item_why {
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.detail_item_why {
+    color: #A9A9A9;
+}

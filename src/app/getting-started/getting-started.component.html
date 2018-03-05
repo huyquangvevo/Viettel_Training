@@ -1,0 +1,45 @@
+
+<div id="component-getting-started">
+    <a class="hover-status" href="#" (mouseover)="flag_1=true" (mouseleave)="flag_1=false" 
+    style="border-left:0.05px solid #A9A9A9">
+      <div [hidden]="flag_1">
+        <img src="../../assets/images/domain-icon.png" width="36px" height="36px">
+        <span id="domain-new">NEW</span>
+      </div>
+      SSD Cloud Server $4.50/Month
+      <p [hidden]="!flag_1" class="info-getting-started">
+        1 Core CPU, 1GB RAM, 40GB SSD <br>
+        Disk & 1TB/Month Transfer
+      </p>
+    </a>
+  
+    <a class="hover-status" href="#" (mouseover)="flag_2=true" (mouseleave)="flag_2=false">
+      <div [hidden]="flag_2" >
+        <img src="../../assets/images/domain-name-icon.png" width="36px" height="36px">
+      </div>
+      Domain Names From $0.48/Year
+      <p [hidden]="!flag_2" class="info-getting-started">
+        Includes free privacy protection
+      </p>
+    </a>
+  
+    <a class="hover-status" href="#" (mouseover)="flag_3=true" (mouseleave)="flag_3=false">
+      <div [hidden]="flag_3">
+        <img src="../../assets/images/getting-started-icon.png" width="36px" height="36px">
+      </div>
+      Getting Started
+      <p [hidden]="!flag_3" class="info-getting-started">
+        Step-by-step tutorials and how-to videos
+      </p>
+    </a>
+    
+    <a class="hover-status" href="#" (mouseover)="flag_4=true" (mouseleave)="flag_4=false">
+      <div [hidden]="flag_4">
+        <img src="../../assets/images/china-icon.png" width="36px" height="36px">
+      </div>
+      ChinaConnect
+      <p [hidden]="!flag_4" class="info-getting-started">
+          Access China's leading cloud network
+      </p>
+    </a>
+</div>

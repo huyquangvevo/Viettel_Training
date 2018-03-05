@@ -1,0 +1,35 @@
+#component-copyright {
+    clear: both;
+    padding: 30px 60px 30px 60px;;
+    background-color: #373d41;
+}
+
+div {
+    color: white;
+}
+
+.item-about-us {
+    padding-right: 40px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.a-item-about-us {
+    color: white;
+    font-size: 14px;
+}
+
+.item-alibaba-group {
+    float:left;
+    padding-right: 10px;
+}
+
+.a-item-alibaba-group {
+    font-size: 14px;
+    color: #A9A9A9;
+}

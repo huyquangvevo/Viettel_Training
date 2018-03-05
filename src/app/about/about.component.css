@@ -1,0 +1,38 @@
+div {
+    color: white;
+}
+
+#component-about {
+    padding:60px;
+    padding-bottom: 80px;
+}
+
+.item-about {
+    width: 190px;
+    float: left;
+    padding-bottom: 60px;
+}
+
+.title-item-about {
+    font-size: 14px;
+    padding-left:3px; 
+}
+
+.detail-item-about {
+    font-size: 14px;
+    color: #A9A9A9;
+    padding:3px; 
+}
+
+.a-item-about {
+    text-decoration: none;
+    color: #A9A9A9;
+}
+
+#item-about-logo {
+    padding-top: 0px;
+}
+
+#logo-about{
+    margin-top: 0px;
+}

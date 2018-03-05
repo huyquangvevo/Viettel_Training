@@ -1,0 +1,72 @@
+<div id="component_solutions">
+  <div id="title_solutions">
+    Solutions <br>
+    ___
+  </div>
+
+  <div id="list_item_solutions" >
+    <div href="#" class="item_solutions" (mouseenter)="setInfo(0)">
+      <img src="../../assets/images/gaming_icon.png" width="36px" height="36px" style="padding-bottom:10px"> <br>
+      Gaming
+    </div>
+
+    <div class="item_solutions" (mouseenter)="setInfo(1)">
+      <img src="../../assets/images/web_hosting_icon.png" width="36px" height="36px" style="padding-bottom:10px"> <br>
+      Web Hosting
+    </div>
+
+    <div class="item_solutions" (mouseenter)="setInfo(2)">
+      <img src="../../assets/images/e-commer-icon.png" width="36px" height="36px" style="padding-bottom:10px"> <br>
+      E-commerce
+    </div>
+
+    <div class="item_solutions" (mouseenter)="setInfo(3)">
+      <img src="../../assets/images/multimedia.png" width="36px" height="36px" style="padding-bottom:10px"> <br>
+      Multimedia
+    </div>
+  </div>
+
+  <div id="info_solutions">
+    <div class="title_item_solutions">
+        {{ title_solutions }}
+    </div>
+
+    <div class="detail_item_solutions">
+      {{ detail_item_solutions}}
+    </div>
+    <button id="button_learn_more">
+        Learn More
+    </button>
+    <div id="list_option_item">
+      <div href="#" class="option_item_solutions" style="float:left;">
+        <div>  
+          {{option_1_item}}
+        </div>
+        <div>
+          <img src="../../assets/images/arrow_icon.png" width="36px" height="36px" style="margin-left:160px"> 
+        </div>
+      </div>
+
+      <div href="#" class="option_item_solutions" style="float:left; margin-left:40px;">
+          <div>  
+            {{option_2_item}}
+          </div>
+          <div>
+            <img src="../../assets/images/arrow_icon.png" width="36px" height="36px" style="margin-left:160px"> 
+          </div>
+        </div>
+
+        <div href="#" class="option_item_solutions" style="float:left;margin-left:40px;">
+            <div>  
+              {{option_3_item}}
+            </div>
+            <div>
+              <img src="../../assets/images/arrow_icon.png" width="36px" height="36px" style="margin-left:160px"> 
+            </div>
+          </div>
+           
+    </div>
+  </div>
+
+</div>
+

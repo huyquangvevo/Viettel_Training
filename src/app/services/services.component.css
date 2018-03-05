@@ -1,0 +1,101 @@
+#component-services {
+    padding: 0px 45px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.title-services {
+    text-align: center;
+    padding: 15px;
+    background-color: #373d41;
+    width: 295px;
+    color: white;
+}
+
+.option-1 {
+    float: left;
+    width: 295px;
+}
+
+.option-services {
+    text-align: center;
+    padding: 5px 5px;
+}
+
+.element-services {
+    width: 1300px;
+    margin-left: 10px;
+}
+
+.detail-services {
+    background-color: #696969;
+    padding: 15px 0px 0px;
+}
+
+.title-option {
+    color: white;
+    font-size: 18px;
+    padding: 10px 5px;
+}
+
+.detail-option {
+    color: white;
+}
+
+.title_s {
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.element-services-2 {
+    margin-left: 0px;
+    position: absolute;
+    top: 0px;
+    left: 55px;
+    
+}
+
+
+.option-2 {
+    width: 295px;
+    float: left;
+}
+
+
+.title-services-2 {
+    text-align: center;
+    background-color:#00BFFF;
+    padding: 15px;
+}
+
+.title_s2{
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.detail-services-2 {
+    background-color: white;
+    padding: 25px 5px;
+    text-align: center;
+}
+
+.option-services-2 {
+    padding: 20px 5px;
+    text-decoration: none;
+}
+
+.title-option-2 {
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+.detail-option-2 {
+    text-align: center;
+    font-size: 14px;
+    color: #A9A9A9;
+    padding: 4px 0px;
+}

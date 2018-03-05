@@ -1,0 +1,24 @@
+#component-get-credit {
+    clear: both;
+    margin-top: 320px;
+    text-align: center;
+    background-color: #1E90FF;
+    width: 100%;
+    padding: 50px;
+}
+
+div {
+    color: white;
+}
+
+#title-get-credit {
+    font-size: 30px;
+}
+
+#button-sign-up {
+    margin-top: 20px;
+    padding: 8px 22px;
+    background: none;
+    border: 0.05px solid white;
+    color: white;
+}

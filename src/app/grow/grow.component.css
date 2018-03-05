@@ -1,0 +1,46 @@
+div {
+    color: white;
+}
+
+#component-grow {
+    margin-top: 0px;
+    padding: 50px 50px;
+    padding-top:80px; 
+}
+
+#title-grow {
+    text-align: center;
+    font-size: 28px;
+}
+
+#map-alibaba {
+    padding: 40px 20px;
+    float: left;
+}
+
+#list-grow {
+    padding: 40px 80px 40px 50px;
+    float: left;
+    margin-left: 50px;
+}
+
+.item-grow {
+    padding: 30px 0px;
+}
+
+.title-item {
+    font-size: 48px;
+    color: #00BFFF;
+    line-height: 0.01;
+}
+
+.hspace {
+    color: #00BFFF;
+    padding-bottom: 0px;
+    font-size: 26px;
+    line-height: 2;
+}
+
+.detail-item {
+    font-size: 15px;
+}

@@ -1,0 +1,84 @@
+#title_solutions {
+    text-align: center;
+    font-size: 26px;
+    color: white;
+    padding:60px 0px 20px 0px;
+}
+
+div.item_solutions:hover{
+    background-color: #0080ff;
+    transform: scale(1.02)  
+}
+
+
+
+.item_solutions{
+    text-align: center;
+    color: white;
+    padding: 30px;
+    background-color: #696969;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+    font-size: 18px;
+}
+
+#list_item_solutions {
+    width: 300px;
+    margin-left: 50px;
+    float: left;
+}
+
+div {
+    color: white;
+}
+
+#info_solutions {
+    padding: 20px;
+    margin-left: 50px;
+    float: left;
+    width: 800px;
+
+}
+
+.title_item_solutions {
+    padding: 30px 0px;
+    font-size: 22px;
+}
+
+#component_solutions {
+        background-image: url("../../assets/images/gaming_solutions.png");
+        background-size: 112%;
+        margin-top: 520px;
+        height: 700px;
+}
+
+#demo {
+    background-image: url("../../assets/images/gaming_solutions.png");
+
+}
+
+.detail_item_solutions {
+    padding-bottom: 120px; 
+}
+
+#button_learn_more {
+    background: none;
+    color: white;
+    border: 0.05px solid white;
+    padding: 6px 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#list_option_item {
+    padding: 80px 0px;
+}
+
+.option_item_solutions {
+    background-color:  #696969;
+    padding: 15px 15px 10px;
+    width: 220px;
+}

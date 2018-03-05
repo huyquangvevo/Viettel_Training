@@ -1,0 +1,63 @@
+
+<button id="button-contact-us" (click)="toggleContact()">
+  Contact US
+</button>
+<button id="button-arrow-top" style="display:none">
+  <a href="#">
+    <img src="../../assets/images/Arrow_top.png" width="28px" height="28px">
+  </a>
+</button>
+<div id="component-contact" [hidden]="flag_contact">
+  <div id="title-contact-us">
+    Contact Us
+  </div>
+  <div class="info-contact">
+    <div class="title-info-contact">
+      Sales Support
+    </div>
+    <div class="detail-info-contact">
+      Live-chat with our sales team or get in touch with business development professional in your region.
+    </div>
+    <button class="button-info-contact">
+      Chat(Beta)
+    </button>
+
+    <button class="button-info-contact">
+      Contact Sales
+    </button>
+  </div>
+
+
+  <div class="info-contact">
+    <div class="title-info-contact">
+      Customer Support
+    </div>
+    <div class="detail-info-contact">
+      Open a ticket and get quick help from our technical team.
+    </div>
+    <button class="button-info-contact">
+      Open A Ticket
+    </button>
+  </div>
+
+  <div class="info-contact" style="padding-bottom:16px;">
+    <div class="title-info-contact">
+      Report Abuse
+    </div>
+    <div class="detail-info-contact">
+      Report abuses such as intellectual property infringement or botnet hosting
+    </div>
+    <button class="button-info-contact">
+      Report Abuse
+    </button>
+  </div>
+
+</div>
+
+<script>
+    $(window).scroll(
+      function(){
+        alert("Huy");
+      }
+    );
+</script>
